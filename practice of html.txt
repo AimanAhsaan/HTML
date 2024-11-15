@@ -1,0 +1,134 @@
+1.Structure:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+    <h1>Heading</h1>
+    <p>Paragraph text.</p>
+</body>
+</html>
+			-------
+
+2.Basic Tags
+Headings: <h1> to <h6> for headings, <h1> being the largest.
+Paragraphs: <p> for text.
+Links: <a href="URL">Link Text</a>.
+Images: <img src="image.jpg" alt="Description">.
+			------
+
+ 3. HTML Attributes
+Provide additional information about an element.
+ 
+Example:
+<a href="https://example.com" target="_blank">Visit</a>
+<img src="image.jpg" alt="A descriptive text" width="300">
+
+
+			------
+4.Formatting Tags
+Bold: <b> or <strong>.
+Italic: <i> or <em>.
+Underline: <u>.
+			-----
+5. Lists
+Ordered List: <ol> with <li> for items.
+Unordered List: <ul> with <li>.
+Description List: <dl>, <dt> (term), <dd> (description).
+			-----
+6. Forms:
+HTML forms are used to collect input from users, process it, and send it to a server. They are essential for interactive web applications like login systems, registration forms, and feedback submission.
+Example:
+<form action="submit.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <button type="submit">Submit</button>
+</form>
+
+<form> Attributes:
+action: Specifies the URL where the form data will be sent.
+method: Defines the HTTP method (GET or POST) for sending data.
+GET: Appends data to the URL (less secure, suitable for simple queries).
+POST: Sends data in the HTTP body (more secure, suitable for sensitive data).
+ 
+Dropdown:
+<select name="country">
+    <option value="us">United States</option>
+    <option value="uk">United Kingdom</option>
+</select>
+Button:
+<button type="button" onclick="alert('Hello!')">Click Me</button>
+Form validation:
+<input type="text" name="username" required>
+<input type="text" name="phone" pattern="\d{10}" title="Enter a 10-digit phone number">
+Setting range:
+<input type="number" name="age" min="18" max="99">
+
+Whole example:
+<form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    
+    <label for="hobby">Hobbies:</label>
+    <input type="checkbox" id="hobby1" name="hobby" value="reading">
+    <label for="hobby1">Reading</label>
+    <input type="checkbox" id="hobby2" name="hobby" value="traveling">
+    <label for="hobby2">Traveling</label>
+    
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+    
+    <button type="submit">Submit</button>
+</form>
+
+			------
+7.Commets:
+Example:
+<!-- <p>This paragraph is disabled for now.</p> -->
+
+8.Layout and Semantics
+Semantic tags describe the content's purpose, making code cleaner and accessible:
+<header>, <footer>, <main>, <nav>, <article>, <aside>, <section>.
+			-----
+9.HTML Media:
+Audio:
+<audio controls>
+    <source src="audio.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+controls: Adds built-in play, pause, and volume control buttons.
+src: Path to the audio file.
+
+Video:
+<video controls>
+    <source src="movie.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+controls: Includes playback controls like play, pause, and volume.
+src: Path to the video file
+		-------
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
