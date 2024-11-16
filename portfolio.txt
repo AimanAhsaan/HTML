@@ -1,0 +1,801 @@
+Home:
+-------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOME</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+        .navbar{
+            background-color:#f7f7f7;
+            border-radius: 0px;
+            width: 100%;
+            
+            
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:right;
+            list-style: none; 
+            margin: 17px 20px;
+            
+        }
+        .navbar li a{
+            padding: 6px 6px;
+            text-decoration: none;
+            color: rgb(8, 8, 8);
+            letter-spacing: 1px;
+            word-spacing: 10px;
+            
+        }
+        .navbar li a:hover{
+            color: #F3CFC6
+        }
+        .navbar div p{
+            padding: 15px 60px;
+            font-size: large;
+             color: black;
+            float: left;
+            letter-spacing: 1px;
+            word-spacing: 10px ;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+            
+
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container{
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .container p
+        {
+            font-family: 'Times New Roman', Times, serif;
+            word-spacing: 10px;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            color: black;
+
+        }
+        .container p span
+        {
+            font-family: 'Times New Roman', Times, serif;
+            word-spacing: 10px;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+
+        }
+        .image{
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+     
+    </style>
+</head>
+
+<body bgcolor= #F3CFC6>
+    <header>
+
+        <nav class="navbar">
+            <div class="logo">
+                <p><b>Umme-Aiman</b></p>
+            </div>
+            <ul>
+                <b>
+                <li><a href="Contact.html" target="_blank">CONTACT</a></li>
+                <li><a href="Skills.html" target="_blank">SKILLS</a></li>
+                <li><a href="Hobbies.html" target="_blank">HOBBIES</a></li>
+                <li><a href="Home.html" target="_self">HOME</a></li>
+            </b>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <p><b>Umm-e-Aiman</b></p>
+    &nbsp;
+    <p><b><span>SOFTWARE ENGINEER</span></b></p>
+    <div class="image">
+        <img src="me.png" alt="portrait" width=30%" align="center">
+        <br><br>
+        <p style="font-size: 15px; word-spacing:1px ; letter-spacing:0.5px;"  align="center" >I am Umm-e-Aiman. 
+            <br>A student of Software engineering at IIUI.
+            I am highly ambitious<br> person with big dreams for my future. Looking for bright<br> opportunities
+            to learn and experiment with my skills.</p>&nbsp;
+    </div>
+    </div>
+    
+    
+    
+</body>
+
+</html>
+
+
+
+Hobbies:
+----------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOBBIES</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+        .navbar{
+            background-color:#f7f7f7;
+            border-radius: 0px;
+            width: 100%;
+            
+            
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:right;
+            list-style: none; 
+            margin: 17px 20px;
+            
+        }
+        .navbar li a{
+            padding: 6px 6px;
+            text-decoration: none;
+            color: rgb(8, 8, 8);
+            letter-spacing: 1px;
+            word-spacing: 10px;
+            
+        }
+        .navbar li a:hover{
+            color: #F3CFC6
+        }
+        .navbar div p{
+            padding: 15px 60px;
+            font-size: large;
+             color: black;
+            float: left;
+            letter-spacing: 1px;
+            word-spacing: 10px ;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+            
+
+        }
+        body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  
+  
+}
+
+.about-section {
+  padding:55px;
+  text-align: center;
+  background-color:#F3CFC6 ;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 10px;
+  word-spacing: 10px ;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  padding: 0 16px;
+  letter-spacing: 1px;
+  word-spacing: 5px ;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+        
+
+    </style>
+</head>
+
+<body bgcolor= #F3CFC6>
+    <header>
+
+        <nav class="navbar">
+            <div class="logo">
+                <p><b>Umm-e-Aiman</b></p>
+            </div>
+            <ul>
+                <b>
+                <li><a href="Contact.html" target="_blank">CONTACT</a></li>
+                <li><a href="Skills.html" target="_blank">SKILLS</a></li>
+                <li><a href="Hobbies.html" target="_blank">HOBBIES</a></li>
+                <li><a href="Home.html" target="_self">HOME</a></li>
+            </b>
+            </ul>
+        </nav>
+    </header>
+    <div class="about-section">
+        <h3 align="center">HOBBIES</h3>
+       
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="image2.jpg" alt="Jane" style="width:100%; height: auto;">
+            <div class="container">
+              <h2>PHOTOGRAPHY</h2>
+              &nbsp;
+              <p><b>"If you can see it, you can shoot it"<b></p>
+              &nbsp;
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="image3.jpg" alt="Mike" style="width: 100%;" style="height: auto;" >
+            <div class="container">
+              <h2>BAKING</h2>
+              &nbsp;
+              <p><b>“With enough butter, anything is good”<b></p>
+              &nbsp;
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="image4.jpg" alt="John" style="width: 100%;" style="height: auto;">
+            <div class="container">
+              <h2>READING</h2>
+              &nbsp;
+              <p>“We read to know, we're not alone”</p>
+              &nbsp;
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+</body>
+
+</html>
+
+
+Skills:
+-------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SKILLS</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+        .navbar{
+            background-color:#f7f7f7;
+            border-radius: 0px;
+            width: 100%;
+            
+            
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:right;
+            list-style: none; 
+            margin: 17px 20px;
+            
+        }
+        .navbar li a{
+            padding: 6px 6px;
+            text-decoration: none;
+            color: rgb(8, 8, 8);
+            letter-spacing: 1px;
+            word-spacing: 10px;
+            
+        }
+        .navbar li a:hover{
+            color: #F3CFC6
+        }
+        .navbar div p{
+            padding: 15px 60px;
+            font-size: large;
+             color: black;
+            float: left;
+            letter-spacing: 1px;
+            word-spacing: 10px ;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+            
+
+        }
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills_section{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 13%;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.skills_head h2{
+    font-size: 30px;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -5px;
+}
+.skills_head h2 span{
+    color: #f7f7f7;
+}
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+    
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+}
+.skill_bar .bar .html{
+    width: 90%;
+    animation: html 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .css{
+    width: 55%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 55%;
+    }
+}
+.skill_bar .bar .c{
+    width: 80%;
+    animation: c 2s;
+}
+@keyframes c {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .cshar{
+    width: 60%;
+    animation: cshar 2s;
+}
+@keyframes cshar{
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+.skill_bar .bar .projectmanagement{
+    width: 70%;
+    animation: projectmanagement 2s;
+}
+@keyframes projectmanagement{
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .communicationskills{
+    width: 70%;
+    animation: communicationskills 2s;
+}
+@keyframes communicationskills {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+
+
+
+        
+
+    </style>
+</head>
+
+<body bgcolor= #F3CFC6>
+    <header>
+
+        <nav class="navbar">
+            <div class="logo">
+                <p><b>Umm-e-Aiman</b></p>
+            </div>
+            <ul>
+                <b>
+                <li><a href="Contact.html" target="_blank">CONTACT</a></li>
+                <li><a href="Skills.html" target="_blank">SKILLS</a></li>
+                <li><a href="Hobbies.html" target="_blank">HOBBIES</a></li>
+                <li><a href="Home.html" target="_self">HOME</a></li>
+            </b>
+            </ul>
+        </nav>
+    </header>
+    <div class="skills_section">
+        <div class="skills_head">
+            <h2>My <span>Skills</span></h2>
+            &nbsp;
+            <p><b>Here are my skills to represent my Expertise</b></p>
+        </div>
+
+        <div class="skills_main">
+            <div class="skill_bar">
+                <div class="info">
+                    <p><b>HTML</b></p>
+                    <P><b>90%</b></P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p><b>CSS</b></p>
+                    <P><b>55%</b></P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p><b>C</b></p>
+                    <P><b>80%</b></P>
+                </div>
+                <div class="bar">
+                    <span class="c"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p><b>C#</b></p>
+                    <P><b>60%</b></P>
+                </div>
+                <div class="bar">
+                    <span class="cshar"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p><b>PROJECT MANAGEMENT</b></p>
+                    <P><b>70%</b></P>
+                </div>
+                <div class="bar">
+                    <span class="projectmanagement"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p><b>COMMUNICATION SKILLS</b></p>
+                    <P><b>70%</b></P>
+                </div>
+                <div class="bar">
+                    <span class="communicationskills"></span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
+
+
+
+Contact us:
+-----------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CONTACT</title>
+    <style>
+        * {
+            margin: 0px;
+            
+            box-sizing: border-box;
+
+        }
+
+        .navbar
+         {
+            background-color: #f7f7f7;
+            border-radius: 0px;
+            width: 100%;
+
+
+
+        }
+        .navbar ul 
+        {
+            overflow: auto;
+        }
+
+        .navbar li 
+        {
+            float: right;
+            list-style: none;
+            margin: 17px 20px;
+
+        }
+
+        .navbar li a {
+            padding: 6px 6px;
+            text-decoration: none;
+            color: rgb(8, 8, 8);
+            letter-spacing: 1px;
+            word-spacing: 10px;
+
+        }
+
+        .navbar li a:hover {
+            color: #F3CFC6
+        }
+
+        .navbar div p {
+            padding: 15px 60px;
+            font-size: large;
+            color: black;
+            float: left;
+            letter-spacing: 1px;
+            word-spacing: 10px;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+
+
+        }
+
+        table.center {
+            margin-right: auto;
+            margin-left: auto;
+
+        }
+
+        table.center td {
+            color: black;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 1px;
+            word-spacing: 10px;
+        }
+
+        p.content{
+            position: relative;
+            color: black;
+            font-size: 30px;
+            letter-spacing: 10px;
+            word-spacing: 10px;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f7f7f7;
+        
+
+        }
+        p.description{
+            position: relative;
+            color: black;
+            font-size: 12px;
+            letter-spacing: 1px;
+            word-spacing: 10px;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+    </style>
+</head>
+
+<body bgcolor=#F3CFC6>
+    <header>
+
+        <nav class="navbar">
+            <div class="logo">
+                <p><b>Umm-e-Aiman</b></p>
+            </div>
+            <ul>
+                <b>
+                    <li><a href="Contact.html" target="_blank">CONTACT</a></li>
+                    <li><a href="Skills.html" target="_blank">SKILLS</a></li>
+                    <li><a href="Hobbies.html" target="_blank">HOBBIES</a></li>
+                    <li><a href="Home.html" target="_self">HOME</a></li>
+                </b>
+            </ul>
+        </nav>
+    </header>
+    &nbsp;
+    &nbsp;
+
+    <p class="content" align="center"><b>Contact Us</b></p>
+    &nbsp;
+    <p class="description" align="center"><b>Have any queries? feel free to ask!</b></p>
+
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+
+    <table class="center" border="0px" bgcolor="#f7f7f7" cellspacing="30" cellpadding="50" width="50%" height="70%">
+        <form action="next.html" method="post">
+            <tr>
+                <td align="center" colspan="2"><input type="text" size="50" max="40" style="height: 45px;"
+                        placeholder=" Enter Your Name" name="n1"></td>
+            </tr>
+            <tr>
+
+                <td align="center" colspan="2"><input type="email" size="50" max="40" style="height: 45px;"
+                        placeholder=" Enter Your Email" name="n1"></td>
+
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><p>Have any queries? feel free to ask in the box below!<br/></p><textarea cols="50" rows="15"></textarea></td>
+            </tr>
+            <tr>
+                <td align="center"><input type="button" value="Submit" style="height: 45px; width: 70px; background-color:#f7f7f7;"></td>
+
+            </tr>
+
+        </form>
+    </table>
+
+
+</body>
+
+</html>
