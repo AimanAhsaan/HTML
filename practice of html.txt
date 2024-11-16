@@ -10,22 +10,18 @@
 </body>
 </html>
 			-------
-
 2.Basic Tags
 Headings: <h1> to <h6> for headings, <h1> being the largest.
 Paragraphs: <p> for text.
 Links: <a href="URL">Link Text</a>.
 Images: <img src="image.jpg" alt="Description">.
 			------
-
  3. HTML Attributes
 Provide additional information about an element.
  
 Example:
 <a href="https://example.com" target="_blank">Visit</a>
 <img src="image.jpg" alt="A descriptive text" width="300">
-
-
 			------
 4.Formatting Tags
 Bold: <b> or <strong>.
@@ -100,35 +96,36 @@ Example:
 Semantic tags describe the content's purpose, making code cleaner and accessible:
 <header>, <footer>, <main>, <nav>, <article>, <aside>, <section>.
 			-----
-9.HTML Media:
-Audio:
-<audio controls>
-    <source src="audio.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-</audio>
-controls: Adds built-in play, pause, and volume control buttons.
-src: Path to the audio file.
+9.Get/Post method:
+get is faster and mostly used but insecure
+post is used when sensitive data is needed to pass out, large amount of data is passed, and is secure
+https://www.youtube.com/watch?v=vf2mpDUq-eM
+			-----
+10.Why we write blank:
+When you use target="_blank", clicking a link opens it in a new tab or window, so the current page stays open. This prevents users from losing their place on the original page
 
-Video:
-<video controls>
-    <source src="movie.mp4" type="video/mp4">
-    Your browser does not support the video element.
-</video>
-controls: Includes playback controls like play, pause, and volume.
-src: Path to the video file
-		-------
-
+			----
+11.Responsiveness:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+width=device-width: Sets the width of the page to match the width of the device’s screen.
+initial-scale=1.0: Sets the initial zoom level to 1 (normal size) when the page is first loaded.
+This ensures that the page layout adjusts properly on different screen sizes (like mobiles, tablets, and desktops).
+			-----
+12.HTML with CSS and JavaScript:
+CSS (Cascading Style Sheets): Used to style and layout HTML elements (e.g., colors, fonts, positioning).
+JavaScript: Adds interactivity to HTML elements (e.g., form validation, dynamic content updates).
+			----
+13.How to put video in html page
+(click on share then click on embed as the first option shown in the dialog box ,copy the <iframe> tag.
 <!DOCTYPE html>
 <html>
 <body>
 
-<h1>My First JavaScript</h1>
-
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-
-<p id="demo"></p>
-
+<h1>The iframe element</h1>
+<div style="width:600px; margin:auto;">
+<iframe width="500" height="315" src="https://www.youtube.com/embed/qARXCXvQXKY?si=tmR8NMFHwiuX5dQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 </body>
-</html> 
+</html>
+
+		-------
