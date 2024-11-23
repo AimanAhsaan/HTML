@@ -129,3 +129,79 @@ JavaScript: Adds interactivity to HTML elements (e.g., form validation, dynamic 
 </html>
 
 		-------
+
+CASCADING STYLE SHEET CSS:
+
+1.Basic Styling:
+Define styles for text and background color:
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+2.Class and ID Selectors:
+Style specific elements using classes and IDs:
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#main-heading {
+    font-size: 2em;
+    text-align: center;
+}
+			--------
+3.Hover Effects:
+Change styles when hovering over an element:
+.button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+			--------
+4.Flexbox Layout:
+Align items in a flexible container:
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+			--------
+5. Grid layout:
+CSS Grid Layout allows you to divide a container into columns and rows, controlling the size and placement of elements within the grid.
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates 5 equal columns */
+    gap: 10px; /* Adds spacing between grid items */
+
+6. CSS Transitions and Animations
+CSS allows for smooth transitions and animations, enhancing user experience.
+			------
+Transitions: Define how properties should change over time.
+ Example:
+button {
+    background-color: blue;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: red;
+}
+			-------
+Keyframes Animations: Allows the creation of complex animations by defining keyframes at specific intervals.
+Example:
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.element {
+    animation: fadeIn 2s ease-in-out;
+}
+			-----
+7.Css Responsiveness:
+RWD Viewport:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
