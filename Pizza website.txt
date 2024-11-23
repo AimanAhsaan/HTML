@@ -1,0 +1,446 @@
+Home page:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thin Crust Pizza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+ <style>
+  /* Set background image for the entire page */
+  body {
+    background-image: url('res.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Amatic SC", sans-serif;
+  }
+
+  /* Welcome Section */
+  .welcome-section {
+    background-color: rgba(248, 248, 248, 0.3); /* Reduce opacity to allow more image visibility */
+    padding: 64px 20px;
+    text-align: center;
+    height: 80vh; /* Adjust height as needed */
+  }
+
+  .welcome-section h1 {
+    font-size: 50px;
+    color: #333;
+  }
+
+  .welcome-section p {
+    font-size: 24px;
+    color: #666;
+  }
+
+  .welcome-section a {
+    font-size: 24px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+
+  /* Footer */
+  footer {
+    background-image: url('https://your-image-url.com/pizza-background.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 64px 20px;
+    text-align: center;
+  }
+</style>
+
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="Home.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="menu.html" class="w3-bar-item w3-button">MENU</a>
+    <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+  </div>
+</div>
+
+<div class="welcome-section">
+  <h1>Welcome to Thin Crust Pizza</h1>
+  <p>Experience the finest Italian pizzas, crafted with love and baked to perfection.</p>
+  <p>Enjoy the taste of freshly prepared ingredients in every bite!</p>
+  <a href="menu.html" class="w3-button w3-black w3-xlarge">Explore Our Menu</a>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 11am to 2am</span>
+  </div>
+</header>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <h2>Contact Us</h2>
+  <p>Follow us on our social media for updates and offers!</p>
+  <div>
+    <a href="https://www.facebook.com/yourpage" target="_blank" class="w3-hover-opacity">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook" style="width:50px;height:50px;margin: 10px;">
+    </a>
+    <a href="https://www.instagram.com/yourpage" target="_blank" class="w3-hover-opacity">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width:50px;height:50px;margin: 10px;">
+    </a>
+    <!-- WhatsApp number link -->
+    <p><a href="https://wa.me/1234567890" target="_blank" style="color:white; text-decoration: none; font-size: 16px; margin-top: 10px;">Contact us on WhatsApp: +3492086009</a></p>
+  </div>
+  <p style="margin-top: 20px;">&copy; 2024 Thin Crust Pizza. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+-------------------------------------------
+
+Menu page:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thin Crust Pizza</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Amatic SC", sans-serif;
+        }
+        .menu {
+            display: none;
+        }
+        .bgimg {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("for home.jpg"); /* Your background image */
+            min-height: 90%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="Home.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="menu.html" class="w3-bar-item w3-button">MENU</a>
+    <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+  </div>
+</div>
+
+<!-- Header with background image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 11am to 2am</span>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <h2>Contact Us</h2>
+  <p>Follow us on our social media for updates and offers!</p>
+  <div>
+    <a href="https://www.facebook.com/yourpage" target="_blank" class="w3-hover-opacity">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook" style="width:50px;height:50px;margin: 10px;">
+    </a>
+    <a href="https://www.instagram.com/yourpage" target="_blank" class="w3-hover-opacity">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width:50px;height:50px;margin: 10px;">
+    </a>
+  </div>
+  <p style="margin-top: 20px;">&copy; 2024 Thin Crust Pizza. All rights reserved.</p>
+</footer>  </div>
+
+</header>
+
+<!-- Menu Section -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+    <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Choose what u want</h1>
+        <div class="w3-row w3-center w3-border w3-border-dark-grey">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+                <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Pizza</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+                <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Salads</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+                <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Starter</div>
+            </a>
+        </div>
+
+        <!-- Pizza Section -->
+        <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+            <div style="position: relative; width: 100%; overflow: hidden; padding: 16px;">
+                <img src="ma.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Margherita</b></h1>
+                <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                <span style="position: absolute; bottom: 0; right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$12.50</span>
+            </div>
+            <hr>
+
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="fo.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Formaggio</b></h1>
+                <p class="w3-text-grey">Four cheeses (mozzarella, parmesan)</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$15.50</span>
+            </div>
+            <hr>
+
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="i.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Chicken</b></h1>
+                <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$17.50</span>
+            </div>
+            <hr>
+
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="i.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Pineapple'o'clock</b></h1>
+                <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$16.50</span>
+            </div>
+            <hr>
+
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="a.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span></h1>
+                <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$20.00</span>
+            </div>
+            <hr>
+
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="g.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Parma</b> <span class="w3-tag w3-grey w3-round">New</span></h1>
+                <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$21.00</span>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Pasta Section -->
+        <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="l.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span></h1>
+                <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$14.00</span>
+            </div>
+            <hr>
+
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="m.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Mac 'n' Cheese</b></h1>
+                <p class="w3-text-grey">Pasta with creamy cheese sauce</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$13.00</span>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Starter Section -->
+        <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="s.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Garlic Bread</b></h1>
+                <p class="w3-text-grey">Bread with garlic butter and herbs</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$5.00</span>
+            </div>
+            <hr>
+
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="r.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Spring Rolls</b></h1>
+                <p class="w3-text-grey">Crispy spring rolls with dipping sauce</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$6.00</span>
+            </div>
+
+            <!-- Additional Starter items -->
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="t.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Bruschetta</b></h1>
+                <p class="w3-text-grey">Tomato, basil, garlic on toasted bread</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$5.50</span>
+            </div>
+            <hr>
+
+            <div style="position: relative; width:100%; overflow: hidden; padding: 16px;">
+                <img src="b.jpg" alt="portrait" width="30%" height="35%" style="float: right; margin-left: 16px;">
+                <h1><b>Chicken Wings</b></h1>
+                <p class="w3-text-grey">Crispy fried chicken wings with hot sauce</p>
+                <span style="position: absolute; bottom: 0px;right: 16%; font-size: 1.2rem; font-weight: bold; background-color: #333; color: #fff; padding: 4px 8px; border-radius: 4px;">$7.00</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-red";
+    }
+
+    document.getElementById("myLink").click(); // Default tab
+</script>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <h2>Contact Us</h2>
+  <p>Follow us on our social media for updates and offers!</p>
+  <div>
+    <a href="https://www.facebook.com/yourpage" target="_blank" class="w3-hover-opacity">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook" style="width:50px;height:50px;margin: 10px;">
+    </a>
+    <a href="https://www.instagram.com/yourpage" target="_blank" class="w3-hover-opacity">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width:50px;height:50px;margin: 10px;">
+    </a>
+    <!-- WhatsApp link -->
+    <a href="https://wa.me/1234567890" target="_blank" class="w3-hover-opacity">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/WhatsApp.svg" alt="WhatsApp" style="width:50px;height:50px;margin: 10px;">
+    </a>
+  </div>
+  <p style="margin-top: 20px;">&copy; 2024 Thin Crust Pizza. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+------------------------------------------------------------
+About us:
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+
+#about h1 {
+    color: gold; /* Golden color */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.6), 0 0 30px rgba(255, 215, 0, 0.4); /* Shiny glow effect */
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="Home.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="menu.html" class="w3-bar-item w3-button">MENU</a>
+    <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">thin<br>CRUST PIZZA</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>CRUST PIZZA</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">About Us</a></p>
+  </div>
+</header>
+
+<!-- Updated About Us Section -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About Us</h1>
+    <p>Welcome to <strong>Thin crust pizza</>, where tradition meets innovation! Founded by Giovanni Romano, a true pizza enthusiast from Naples, our mission is simple: to offer an authentic Italian pizza experience with a modern twist. Every pizza is hand-crafted using only the finest ingredients, some of which are sourced from our own family farm in Italy!</p>
+    <p><strong>Our Chef?</strong> Giovanni Romano, the heart and soul behind Pizza Paradiso, is more than just a chef—he's a pizza artist. Giovanni's secret recipe for dough is passed down through generations, and every pie is a masterpiece. You can even watch him work his magic in our open kitchen, where pizza-making becomes a performance. <img src="chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+    
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li><strong>Fresh Ingredients:</strong> We only use locally-sourced produce and fresh mozzarella flown in from Italy!</li>
+      <li><strong>Innovative Flavors:</strong> While we honor traditional recipes, we also offer exciting fusion pizzas, like our "Truffle & Fig" pizza.</li>
+      <li><strong>Eco-Friendly:</strong> Our restaurant is committed to sustainability, using eco-friendly packaging and energy-efficient appliances.</li>
+      <li><strong>Handcrafted, Every Time:</strong> Each pizza is individually crafted to perfection with love and care.</li>
+    </ul>
+
+    <p>But don't just take our word for it—our customers rave about our food:</p>
+    <blockquote class="w3-card w3-light-grey">
+      <p>"The best pizza I’ve ever had! The truffle and fig pizza is a game-changer. Every bite is pure heaven!" — Sarah T.</p>
+    </blockquote>
+    <blockquote class="w3-card w3-light-grey">
+      <p>"Pizza Paradiso is my go-to place for a cozy meal with friends. The atmosphere is warm and inviting, and the staff are amazing!" — Jake L.</p>
+    </blockquote>
+
+    <p>Not only do we serve great food, but we’re also passionate about the experience. Our cozy, rustic interior transports you straight to Italy. From the hand-painted murals to the open wood-fired oven, we create an ambiance that makes every meal unforgettable.</p>
+    <img src="res.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+
+    <h1><b>Our Hours</b></h1>
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Monday & Tuesday: 11:00am-2:00am</p>
+        <p>Wednesday: 11:00am-2:00am</p>
+        <p>Thursday: 11:00am-2:00am</p>
+      </div>
+      <div class="w3-col s6">
+        <p>Friday: Closed</p>
+        <p>Saturday: 11:00am-2:00am</p>
+        <p>Sunday: 11:00am-2:00am</p>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <h2>Contact Us</h2>
+  <p>Follow us on our social media for updates and offers!</p>
+  <div>
+    <a href="https://www.facebook.com/yourpage" target="_blank" class="w3-hover-opacity">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook" style="width:50px;height:50px;margin: 10px;">
+    </a>
+    <a href="https://www.instagram.com/yourpage" target="_blank" class="w3-hover-opacity">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width:50px;height:50px;margin: 10px;">
+    </a>
+    <!-- WhatsApp number link -->
+    <p><a href="https://wa.me/1234567890" target="_blank" style="color:white; text-decoration: none; font-size: 16px; margin-top: 10px;">Contact us on WhatsApp: +3492086009</a></p>
+  </div>
+  <p style="margin-top: 20px;">&copy; 2024 Thin Crust Pizza. All rights reserved.</p>
+</footer>
+
+</html>
