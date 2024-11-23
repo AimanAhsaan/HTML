@@ -208,3 +208,4 @@ Example:
 7.Css Responsiveness:
 RWD Viewport:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+CSS reponsive features helps to adjust on every device like smart phones, tablets, laptops and pc's.In above line it initial zoom feature is set to "1.0", "width=device-width" adjust on phones ,pc's easily.The "viewport" varies with the device, and will be smaller on a mobile phone than on a computer screen.The width and height of images and videos displayed on the websites adjusted accordingly by setting them by giving specific values for height r width r other attributes as well.
